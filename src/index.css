@@ -1,10 +1,36 @@
+:root {
+  --main-color: #bc3d36;
+  --sec-color: #f8f7f2;
+  --third-color: #53565a;
+
+  --first-color-hover: #ba716d;
+  --sec-color-hover: #e6cb81;
+  --third-color-hover: #9d876b;
+
+  --cursor-default: url('./cursors/default/paw1.svg') 16 16, default;
+  --cursor-pointer: url('./cursors/pointer/point.svg') 16 16, default
+}
+
+* {
+  /* my settings */
+  cursor: var(--cursor-default);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  padding: 0;
+  /*order-style: border-box;*/
+
+  /* react defaults */
+  font-family: 'Capriola',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.cursor-pointer {
+  cursor: var(--cursor-pointer);
 }
 
 code {

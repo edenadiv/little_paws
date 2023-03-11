@@ -1,0 +1,344 @@
+.product-div {
+    width: 1920px;
+    height: 82rem;
+}
+
+.product-container {
+    top: 20rem;
+    border-top: 2px solid var(--sec-color);
+    position: absolute;
+    left: 400px;
+    right: 400px;
+    display: flex;
+    border-bottom: 2px solid var(--sec-color);
+    padding-bottom: 4rem;
+}
+
+.product-image {
+    padding-right: 100px;
+    padding-top: 4rem;
+}
+
+.product-details {
+    font-size: 2.7vh;
+    width: 450px;
+    padding-top: 4rem;
+}
+
+.product-color {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-name {
+    border-bottom: 2px solid var(--sec-color);
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.product-color-picker {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+.product-color-picker-img{
+    width: 8%;
+    border: 2px solid var(--third-color);
+    border-radius: 17px;
+}
+
+.this-color-picker{
+    width: 8%;
+    border: 2px solid var(--sec-color);
+    border-radius: 17px;
+}
+
+.heart{
+    margin-left: 230px;
+}
+
+.product-collection {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-quantity {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-quantity-span {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.product-quantity-container i {
+    cursor: pointer;
+}
+
+.product-add-to-cart {
+    padding-top: 3rem;
+    cursor: pointer;
+}
+
+.product-add-to-cart :hover {
+    cursor: pointer;
+    background-color: var(--third-color-hover);
+}
+
+.you-may-also-like-images a{
+    padding:2rem;
+}
+
+.you-may-also-like-images a:hover{
+    background-color: var(--third-color-hover);
+    border-radius: 20px;
+    padding:2rem;
+}
+
+.product-add-to-cart-btn {
+    font-size: 4vh;
+    padding: 1.7vh;
+    padding-right: 11vh;
+    padding-left: 11vh;
+    font-family: 'Capriola';
+    border-radius: 1rem;
+    color: var(--third-color);
+    background-color: var(--sec-color);
+}
+
+.you-may-also-like-container {
+    /* position: absolute; */
+    padding-top: 100px;
+}
+
+.you-may-also-like-text {
+    padding-bottom: 2rem;
+    font-size: 2.2vh;
+    text-align: center;
+}
+
+.you-may-also-like-images {
+    display: flex;
+    /* width: 1000px; */
+    justify-content: space-evenly;
+    border-bottom: 2px solid var(--third-color);
+    padding-bottom: 1rem;
+    /* width: 1000px; */
+    /* left: 400px; */
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.you-may-also-like-image-1 img {
+    padding: 2vh;
+    cursor: pointer;
+}
+
+.you-may-also-like-image-2 img {
+    padding: 2vh;
+    cursor: pointer;
+}
+
+.you-may-also-like-image-3 img {
+    padding: 2vh;
+    cursor: pointer;
+}
+
+.you-may-also-like-image-4 img {
+    padding: 2vh;
+    cursor: pointer;
+}
+
+.you-may-also-like-image-5 img {
+    padding: 2vh;
+    cursor: pointer;
+}
+
+.you-may-also-like-image-1 img:hover {
+    background-color: var(--third-color-hover);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.you-may-also-like-image-2 img:hover {
+    background-color: var(--third-color-hover);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.you-may-also-like-image-3 img:hover {
+    background-color: var(--third-color-hover);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.you-may-also-like-image-4 img:hover {
+    background-color: var(--third-color-hover);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.you-may-also-like-image-5 img:hover {
+    background-color: var(--third-color-hover);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.customers-reviews-container {
+    padding-top: 1rem;
+    font-size: 2.2vh;
+    /* padding-bottom: 35px; */
+}
+
+.customers-reviews-text {
+    text-align: center;
+}
+
+.customers-reviews {
+    padding-top: 35px;
+    border-bottom: 2px solid var(--third-color);
+    margin-right: 400px;
+    margin-left: 400px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 2vh;
+}
+
+.review-img {}
+
+.review-img img {
+    width: 100px;
+}
+
+.review-text {}
+
+.review-name {}
+
+.review {
+    /* padding-left: 410px; */
+    /* padding-right: 390px; */
+    display: flex;
+    padding-left: 1rem;
+}
+
+.review-content {
+    padding-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.review-stars {
+    display: flex;
+    padding-left: 3rem;
+    position: absolute;
+    right: 420px;
+}
+
+.star {
+    padding: 0.8rem;
+    color: var(--sec-color);
+    transform: rotate(-35deg);
+}
+
+.comment {
+    position: relative;
+    display: flex;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+
+#comment-form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    ;
+}
+
+.part-one {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.part-two {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#label-name {
+    margin-right: 44px;
+}
+
+#label-comment {}
+
+#comment-name {
+    margin-left: 60px;
+    font-family: 'Capriola';
+}
+
+#comment-comment{
+    margin-left: 60px;
+}
+
+.review-stars-picker {
+    display: flex;
+    justify-content: space-evenly;
+    width: 220px;
+    margin-left: 520px;
+}
+
+.star-picker {
+    transform: rotate(-35deg);
+}
+
+#comment-text {}
+
+#comment-submit {
+    margin-left: 20px;
+    background-color: var(--sec-color);
+    border-radius: 10px;
+    font-family: 'Capriola';
+    color: var(--third-color);
+    font-size: larger;
+    border: 2px solid darkslategrey;
+    padding: 4px;
+}
+
+#comment-reset {
+    margin-left: 329px;
+    background-color: var(--sec-color);
+    border-radius: 10px;
+    font-family: 'Capriola';
+    font-size: larger;
+    color: var(--third-color);
+}
+
+#comment-submit:hover {
+    margin-left: 20px;
+    background-color: var(--third-color-hover);
+    border-radius: 10px;
+    font-family: 'Capriola';
+    color: var(--third-color);
+    font-size: larger;
+    border: 2px solid darkslategrey;
+    padding: 4px;
+    cursor: var(--cursor-pointer);
+}
+
+#comment-reset:hover {
+    margin-left: 329px;
+    background-color: var(--third-color-hover);
+    border-radius: 10px;
+    font-family: 'Capriola';
+    font-size: larger;
+    color: var(--third-color);
+    cursor: var(--cursor-pointer);
+}

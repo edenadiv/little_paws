@@ -1,0 +1,13 @@
+.show-user-p{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 100rem;
+    margin-top: 300px;
+}
+.show-user-container{
+    font-size: 5rem;
+    background-color: var(--third-color-hover);
+    border-radius:3rem;
+    padding: 3rem;
+}
+

@@ -1,0 +1,36 @@
+.shop-now-product {
+    border-style: border-box;
+    width: 300px;
+    padding: 2vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+
+.shop-now-product:hover {
+    color: var(--third-color);
+    border-radius: 20px;
+    z-index: 0;
+    padding: 2vh;
+    cursor: var(--cursor-pointer);
+}
+.shop-now-product-sentence {
+    color: #f8f7f2;
+    font-size: 3.3rem;
+    cursor: var(--cursor-pointer);
+}
+
+.shop-now{
+    font-size: 4.3rem;
+    color: #f8f7f2;
+    font-weight: bold;
+    cursor: var(--cursor-pointer);
+}
+
+.shop-now:hover {
+    color: var(--third-color);
+    font-size: 4.3rem;
+    font-weight: bold;
+    cursor: var(--cursor-pointer);
+}

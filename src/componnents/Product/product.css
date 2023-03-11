@@ -1,0 +1,46 @@
+.size100 {
+    max-width: 100%;
+    width: 100%;
+    padding: 2vh;
+}
+
+.size150 {
+    max-width: 150%;
+    width: 150%;
+    padding: 2vh;
+}
+
+.size200 {
+    max-width: 200%;
+    width: 200%;
+    padding: 2vh;
+}
+
+.product {
+    border-style: border-box;
+    width: 300px;
+}
+
+.product.firstColorHover img:hover {
+    background-color: var(--first-color-hover);
+    border-radius: 20px;
+    z-index: 0;
+    padding: 2vh;
+    cursor: var(--cursor-pointer);
+}
+
+.product.secColorHover img:hover {
+    background-color: var(--sec-color-hover);
+    border-radius: 20px;
+    z-index: 0;
+    padding: 2vh;
+    cursor: var(--cursor-pointer);
+}
+
+.product.thirdColorHover img:hover {
+    background-color: var(--third-color-hover);
+    border-radius: 20px;
+    z-index: 0;
+    padding: 2vh;
+    cursor: var(--cursor-pointer);
+}

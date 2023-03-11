@@ -1,0 +1,25 @@
+.admin-page-container{
+    width: 1320px;
+    font-size: 3.3rem;
+    margin-top: 17rem;
+    margin-left: 34rem;
+}
+
+.admin-page-table{
+}
+
+.admin-page-container h1{
+    font-size: 7rem;
+    padding-bottom: 4rem;
+    text-decoration: underline;
+}
+
+.admin-page-btn{
+    font-size:3rem;
+    border-radius: 1rem;
+}
+
+.admin-page-btn-container{
+    display:flex;
+    justify-content:space-evenly;
+}

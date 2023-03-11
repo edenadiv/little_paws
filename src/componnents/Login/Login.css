@@ -1,0 +1,32 @@
+.login-field {
+    font-size:5rem;
+}
+
+.login-btn{
+    font-size: 5rem;
+    width:53rem;
+    border-radius:1rem;
+}
+
+.login-btn-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login-card{
+    background-color: var(--third-color);
+    padding: 4rem;
+    border-radius: 2.5rem;
+    padding: 2rem;
+}
+
+.login-legend{
+    text-decoration: underline;
+    font-size: 5rem;
+}
+
+.login-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

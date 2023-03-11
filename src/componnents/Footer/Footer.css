@@ -1,0 +1,14 @@
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size:1.5rem;
+    height: 4rem;
+    background-color: var(--third-color-hover);
+    color: white;
+    text-align: center;
+}
+
+.fixed-position{
+    position: fixed;
+}

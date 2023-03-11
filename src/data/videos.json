@@ -1,0 +1,26 @@
+[
+    {
+        "VideoId": "videos/3.mp4",
+        "VideoColor": "Red",
+        "VideoOrientation": "landscape",
+        "Sentence1Part1":"Our Best Friends",
+        "Sentence1Part2":"deserve the best",
+        "Sentence2":"Dont they?"
+    },
+    {
+        "VideoId": "videos/6.mp4",
+        "VideoColor": "Brown",
+        "VideoOrientation": "landscape",
+        "Sentence1Part1":"This cutie deserve",
+        "Sentence1Part2":"new collar",
+        "Sentence2":"Right Now!"
+    },
+    {
+        "VideoId": "videos/7.mp4",
+        "VideoColor": "Yellow",
+        "VideoOrientation": "landscape",
+        "Sentence1Part1":"Can you buy me",
+        "Sentence1Part2":"a new collar",
+        "Sentence2":"Please?"
+    }
+]

@@ -1,0 +1,44 @@
+.main {
+    width: 1920px;
+    height: 1080px;
+}
+
+.main-container {
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+}
+
+
+.video-overlay {
+    color: var(--sec-color);
+    position: absolute;
+    bottom: 700px;
+    left: 130px;
+    font-size: 6vh;
+}
+
+.video-overlay2 {
+    color: var(--sec-color);
+    position: absolute;
+    bottom: 600px;
+    left: 455px;
+    font-size: 6vh;
+}
+
+.social-icons {
+    position: absolute;
+    font-size: 4vh;
+    bottom: 30px;
+    right: 100px;
+}
+
+.social-icons i{
+    color: var(--sec-color);
+    padding: 10px;
+}
+
+.social-icons i:hover {
+    color: var(--third-color);
+    cursor: var(--cursor-pointer);
+}

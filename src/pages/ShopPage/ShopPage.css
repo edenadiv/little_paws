@@ -1,0 +1,24 @@
+.container-shop{
+    margin-left: 38rem;
+    margin-top: 20rem;
+}
+
+.shop-btns{
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;;
+}
+
+.catagory-picker {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1700px;
+    margin-left: 100px;
+    margin-top: 3rem;
+    border-bottom: 2px solid var(--third-color);
+    padding-bottom: 3rem;
+    color: var(--third-color);
+    font-family: 'Capriola';
+}
